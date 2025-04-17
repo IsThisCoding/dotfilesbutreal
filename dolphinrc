@@ -1,0 +1,16 @@
+[General]
+Version=202
+ViewPropsTimestamp=2025,3,6,20,39,9.829
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=folder,gdk-pixbuf-thumbnailer,ffmpegthumbnailer,webp,exe-thumbnailer
+
+[UiSettings]
+ColorScheme=Theme Name
