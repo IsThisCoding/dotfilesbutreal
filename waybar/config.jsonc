@@ -1,0 +1,26 @@
+{
+  "layer": "top",
+  "position": "top",
+  "padding-bottom": 0,
+  "margin-top": 0,
+  "margin-bottom": 0,
+  "margin-left": 0,
+  "margin-right": 0,
+  "height": 32,
+  "spacing": 0,
+  "include": ["/home/michael/.config/waybar/modules.jsonc"],
+
+  "modules-left": ["custom/launcher", "clock", "group/sysinfo"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["tray", "backlight", "group/sysutil", "custom/logout"],
+
+  "group/sysinfo": {
+    "orientation": "horizontal",
+    "modules": ["custom/cpu", "custom/cpufreq", "custom/mem"],
+  },
+
+  "group/sysutil": {
+    "orientation": "horizontal",
+    "modules": ["network", "bluetooth", "pulseaudio", "battery"],
+  },
+}
